@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:400,500,600,800");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 /*
 	Paradigm Shift by HTML5 UP
@@ -240,7 +241,7 @@ p {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #000000;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-weight: 600;
 		letter-spacing: 2px;
 		line-height: 1.75;
@@ -1905,7 +1906,7 @@ p {
 		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 0.6rem;
 		font-weight: 600;
 		height: 3rem;
@@ -2181,7 +2182,7 @@ p {
 	label {
 		color: #000000;
 		display: block;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 0.75rem;
 		font-weight: 600;
 		letter-spacing: 0.175em;
@@ -3300,7 +3301,7 @@ p {
 				}
 
 				#wrapper section > header h1 + p {
-					font-family: "Raleway", Helvetica, sans-serif;
+					font-family: 'Roboto', sans-serif;
 					font-size: 0.8rem;
 					letter-spacing: 0.175em;
 					line-height: 2.5;
@@ -3922,7 +3923,7 @@ p {
 	}
 
 
-	@media screen and (max-width: 500px){
+	@media screen and (max-width: 767px){
 
 		.iframe_cover iframe {
 			height: 695px !important;
