@@ -85,6 +85,9 @@ input, select, textarea {
 .big_font {
 	font-size: 30px;
 }
+p {
+	color: #000;
+}
 /*edit end*/
 
 
