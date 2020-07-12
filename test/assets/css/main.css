@@ -72,10 +72,21 @@ input, select, textarea {
 	appearance: none;
 }
 
-
+/*edit start*/
 .iframe_cover iframe {
 	width: 100%!important;
 }
+.list_box li {
+	list-style-type: none;
+}
+.list_box {
+	padding-left: 0;
+}
+.big_font {
+	font-size: 30px;
+}
+/*edit end*/
+
 
 
 /* Basic */
@@ -208,7 +219,7 @@ input, select, textarea {
 		color: #000000;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
-		letter-spacing: 0.175em;
+		letter-spacing: 2px;
 		line-height: 1.75;
 		margin: 0 0 1.5rem 0;
 		text-transform: uppercase;
@@ -3262,7 +3273,7 @@ input, select, textarea {
 			}
 
 				#wrapper section > header h2 {
-					margin: 0 0 5rem 0;
+					margin: 0 0 10px 0;
 				}
 
 				#wrapper section > header h1 + p {
@@ -3883,6 +3894,15 @@ input, select, textarea {
 
 		body.is-ie #wrapper section > footer {
 			padding: 4rem;
+		}
+
+	}
+
+
+	@media screen and (max-width: 500px){
+
+		.iframe_cover iframe {
+			height: 695px !important;
 		}
 
 	}
