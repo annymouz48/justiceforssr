@@ -3944,6 +3944,15 @@ p {
 			color: #000;
 			font-weight: 400;
 		}
+		#wrapper section > header h1 + p strong {
+			text-align: center;
+		}
+		.dark_box {
+			text-align: center;
+		}
+		.dark_box a {
+			color: #fff;
+		}
 
 	}
 
