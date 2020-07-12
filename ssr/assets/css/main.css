@@ -85,6 +85,7 @@ input, select, textarea {
 }
 .big_font {
 	font-size: 30px;
+	line-height: 38px;
 }
 p {
 	color: #000;
