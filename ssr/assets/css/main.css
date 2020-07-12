@@ -3927,11 +3927,17 @@ p {
 		.iframe_cover iframe {
 			height: 695px !important;
 		}
+		p {
+			font-size: 18px;
+			line-height: 28px;
+			font-weight: 500!important;
+		}
 
 	}
 
 
 
-p {
-	font-weight: 500;
-}
+
+
+
+
